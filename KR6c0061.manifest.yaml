@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6c0061/v1
+canonical_location: https://kanripo.org/bkk/KR6c0061/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛經釋
+  identifiers:
+    alt_id:
+    - X25n0473
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X25/X25n0473.xml
+    old_id: X25n0473
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0061_000.yaml, hash: 'sha256:0ea639da4dd8291e3c855f3019fa37dee5ef337ed2bd834c16797ffc605acd49'}
+  - {seq: 1, filename: KR6c0061_001.yaml, hash: 'sha256:de4c4e76f032f80febe2e06da56f21a579ee25206122cc2289d286bc45bcb635'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0061_001.markers.yaml, hash: 'sha256:db6f6f3e67a52d795d651f28385bd93c0e47cd7042222ae2430bce875cfe7bde'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0061_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2309
+  label: 釋金剛經
+  type: juan
+  level: 1
+hash: sha256:91a626bb9918b44847ff7faaf72c3e0e15c94731528394b5ea2d420cce0d8f4f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
